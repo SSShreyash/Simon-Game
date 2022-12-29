@@ -74,7 +74,7 @@ function startOver(){
 }
 
 function playSound(chosenColor){
-    var audio = new Audio("sounds/" + chosenColor + ".mp3");
+    var audio = new Audio(chosenColor + ".mp3");
     audio.play();
 }
 
