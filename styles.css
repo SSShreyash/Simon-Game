@@ -1,0 +1,93 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+#keyboardGIF{
+  width: 900px;
+  height: 529px;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.hidden{
+  display: none;
+}
+
+@media (max-width:740px){
+  #level-title{
+    line-height: 2;
+    font-size: 2rem;
+  }
+  .btn{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+  }
+  #keyboardGIF{
+    width: 400px;
+    height: 290px;
+  }
+
+}
+
+@media (min-width:740px) and (max-width:1140px) {
+  h1{
+    line-height: 2;
+  }
+  .btn{
+    height: 100px;
+    width: 100px;
+  }
+  #keyboardGIF{
+    width: 600px;
+    height: 290px;
+  }
+
+}
